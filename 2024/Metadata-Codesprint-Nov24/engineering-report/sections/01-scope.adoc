@@ -26,6 +26,16 @@ The approach: 19115-1 and 19157-1 (data quality) are in scope and encoding will 
 A comprehensive XML 'real life' dataset has been created and converted to a GeoJSON preferred encoding.
 The GeoJSON example dataset is a subset (profile) of 19115-1 and 19157-1, but is considered to cover the essential part and is considered as the requirements that are set for the GeoJSON schema, with development pending resource allocation, ultimately resulting in the generation of a GeoJSON schema based on the dataset and UML model.
 
-Specific case studies with engagement in the first session included: #17 
+
+Specific case studies with engagement in the first session included: #17 TITLE NEEDED?
 
 Another goal under consideration is to move the Geonetwork 4 FormatterAPI, as well as all its support, over to Geonetwork 5 via a set of XSLTs that take the underlying ISO XML documents and output DCAT-AP (country specific) XML RDF files, which is already working in Geonetwork 4, which will provide records infrastructure access to all of Geonetwork's output formats (more than just DCAT).
+
+
+Proposal #?? Data Format and Validation Service For Interoperability Between Analytics and Data
+
+As systems become more complicated, and a system of systems approach becomes the norm rather than the dream, it's important that datasets and containerised analytics to be able declare, trust, and verify that data meets certain assertions and standards. AURIN has been contemplating an idea for building a Data Format and Validation Registry, first internally and then externally, that would mix persistent identifiers, human readable data assertions, and machine readable and executable assertions on data formats to add an automated "trust, with verification" layer to their data/analytics ecosystem.
+
+The basic sketch would be to have a minted persistent identifier (similar to a DOI or an ORCID) of some description that links to a human readable and machine readable page describing what this data format is and what assertions data would have to meet to be considered valid. A preliminary prototype of the service could have a sort of standard DOI type link that would resolve to a page with human readable metadata about the data format, and then validation scripts or attached assertions in a validation language, such as Great Expectations, or similar.
+
+The challenge, beyond vetting the approach is to think about what metadata should be provided on the other end of that "format persistent identifier" link that would allow for a service to independently and automatically verify that a dataset complies with the standard it claims to adhere to.
