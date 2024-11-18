@@ -38,3 +38,7 @@ RDF:: Resource Description Framework
 REST:: Representational State Transfer
 STAC:: Spatial Temporal Asset Catalog
 TEAM:: Test, Evaluation, And Measurement Engine
+UML:: Unified Modeling Language
+URI:: Uniform Resource Identifier
+URL:: Uniform Resource Locator
+
