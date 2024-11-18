@@ -25,4 +25,4 @@ A lot of 'prior art' exists, mapping from various editions of ISO 19115 (or at l
 * W3C draft mapping from ISO 19115:2003 (unknown subset) to DCAT v2: [https://www.w3.org/2015/spatial/wiki/ISO_19115_-_DCAT_-_Schema.org_mapping ](https://www.w3.org/2015/spatial/wiki/ISO_19115_-_DCAT_-_Schema.html)
 * EU mapping from ISO 19139 (encoding of ISO 19115:2003) (EU INSPIRE subset) to EU GeoDCAT-AP (an AP of DCAT v2): https://github.com/GeoCat/iso-19139-to-dcat-ap/blob/master/documentation/Mappings.md
 * UK (draft) mapping from ISO 19115:2003 (EU INSPIRE subset) to DCAT v3: https://github.com/agiorguk/gemini/issues/41 (less detailed than above)
-* implementations (XSLT) in GeoNetwork microservices e.g. https://github.com/geonetwork/geonetwork-microservices/tree/main/modules/services/ogc-api-records/src/main/resources/xslt/ogcapir/formats/copy for ISO 19115:2003 / ISO 19139 (UK / INSPIRE subset)
+* implementations (XSLT) in GeoNetwork microservices e.g. https://github.com/geonetwork/geonetwork-microservices/tree/main/modules/services/ogc-api-records/src/main/resources/xslt/ogcapir/formats/copy for ISO 19115-1:2014 / ISO 19115-3 (UK / INSPIRE subset) to DCAT v3
