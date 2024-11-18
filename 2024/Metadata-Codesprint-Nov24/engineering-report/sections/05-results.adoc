@@ -1,0 +1,37 @@
+[[results]]
+== Results
+
+The code sprint included multiple software applications and experimented with several standards. This section presents the key results from the code sprint.
+
+=== Approved OGC Standards
+
+include::results/coveragejson.adoc[]
+
+include::results/trainingdmlai.adoc[]
+
+=== Candidate OGC Standards
+
+include::results/ogcsensorthingsapiwebsub.adoc[]
+
+include::results/ogcapirecords.adoc[]
+
+
+include::results/ogcstylessymbology.adoc[]
+
+=== Specifications from the Community
+
+include::results/mapml.adoc[]
+
+include::results/iso19157_3.adoc[]
+
+=== Software Projects and Products
+
+include::results/pygeoapi.adoc[]
+
+include::results/pygeometa.adoc[]
+
+include::results/cubeserv.adoc[]
+
+include::results/gnosis.adoc[]
+
+include::results/jsonlinter.adoc[]
