@@ -40,9 +40,11 @@ OWS:: OGC Web Services
 PROV:: Provenance family of documents
 RDF:: Resource Description Framework
 REST:: Representational State Transfer
+SHACL:: Shapes Constraint Language
 STAC:: Spatial Temporal Asset Catalog
 TEAM:: Test, Evaluation, And Measurement Engine
 UML:: Unified Modeling Language
 URI:: Uniform Resource Identifier
 URL:: Uniform Resource Locator
+XSLT:: Extensible Stylesheet Language Transformations
 
