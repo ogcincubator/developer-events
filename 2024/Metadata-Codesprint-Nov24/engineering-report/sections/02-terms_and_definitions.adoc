@@ -25,9 +25,11 @@ An API using an architectural style that is founded on the technologies of the W
 === Abbreviated terms
 
 API:: Application Programming Interface
+AURIN:: Australian Urban Research Infrastructure Network 
 CARE:: Collective benefit, Authority, Responsibility to control, Ethical behaviors
 CITE:: Compliance Interoperability & Testing Evaluation
 CRS:: Coordinate Reference System
+DOI:: Digital Object Identifier
 DCAT:: Data Catalog Vocabulary
 EDR:: Environmental Data Retrieval
 FAIR:: Findability, Accessibility, Interoperability, and Reusability
@@ -35,16 +37,21 @@ GeoDCAT:: a spatio-temporal profile of the W3C DCAT Recommendation
 GIS:: Geographic Information System
 GN:: GeoNetwork
 JSON:: JavaScript Object Notation
+ISO:: International Organization for Standardization
+NCRIS:: National Collaborative Research Infrastructure Strategy
 OGC:: Open Geospatial Consortium
+ORCID:: Open Researcher and Contributor ID, 
 OWS:: OGC Web Services
 PROV:: Provenance family of documents
 RDF:: Resource Description Framework
 REST:: Representational State Transfer
 SHACL:: Shapes Constraint Language
 STAC:: Spatial Temporal Asset Catalog
+TC 211:: ISO Technical Committee 211 - Geographic information/Geomatics
 TEAM:: Test, Evaluation, And Measurement Engine
 UML:: Unified Modeling Language
 URI:: Uniform Resource Identifier
 URL:: Uniform Resource Locator
+WG:: Working Group
 XSLT:: Extensible Stylesheet Language Transformations
 
