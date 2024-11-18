@@ -4,3 +4,20 @@
 OGC Code Sprints experiment with emerging ideas in the context of geospatial Standards and help improve interoperability of existing Standards by experimenting with new extensions or profiles. They are also used for building proofs-of-concept to support standards development activities and the enhancement of software products. The nature of the activities is influenced by whether a code sprint is 'generic' or 'focused'. All OGC working groups are invited and encouraged to set up a thread in generic code sprints, whereas focused code sprints are tailored to a specific set of standards (typically limited to three standards).
 
 This ER presents the high-level architecture of the code sprint and describes each of the standards and software packages that were deployed in support of the code sprint. The ER also discusses the results and presents a set of conclusions and recommendations. The recommendations identify ideas for future work, some of which may be more appropriate for testbeds, pilots, or other types of OGC initiatives. Therefore, the reader is encouraged to consider the recommended future work within the context of all OGC Standards development, collaborative solutions, and innovation activities.
+
+The idea is to determine and demonstrate where and when different standards (namely STAC, OGC API records, ISO 19115, and GeoDCAT) can work in tandem to provide the most relevant information to the right users at the right time. The goal is to create a demonstration where the strengths of each are highlighted while working in tandem.
+
+OGC will provide an open source framework for testing mappings between standards, using test case examples covering Records, STAC and DCAT. Codesprint participants would be able to extend this to XML based metadata standards such as ISO 19115, in a way that is extensible to various profiles in use. This could leverage skills in any or all of coding, datamodelling, metadata standards or application domain requirements.
+
+Potential scope from an ISO TC 211 perspective includes canvassing for views on what could be useful in regards to an upcoming revision of ISO 19115-1:2014, including the potention for a formal document on how to map ISO 19115-1 to DCAT, or perhaps a new version of ISO 19115-1 restructured using the DCAT terms and structure, with the intention of aligning the encoding of ISO 19115-1 with one or more encodings of DCAT.  Similarly, is there user demand for an RDF/XML and/or OWL "encoding" of ISO 19115-1 in an official or recommended form?
+
+More specifically, in terms of a specific "code sprint" activity, potential foci could look to define and exercise the "mapping" - this could be done several ways and the GeoDCAT Building Blocks can be used to execute, test and publish these mappings. Five options worthy of consideration:
+
+XML->JSON using existing libraries and JSON-LD uplift (often this needs an intermediate transform)
+19115 UML -> JSON schema and OWL using Shapechange, and JSON-LD uplift (bonus marks to make shapechencge generate the JSON-LD mapping) - and transforms from 19115 OWL to GeoDCAT.
+Use existing transform languages and libraries designed for relational->RDF mapping such as R2RML
+custom scripts taking a mapping table and generating or incorporating custom translation code per element
+Take a 19115 -> OGC Records mapping and use the Records->DCAT mapping under development
+Note that option 4 could be used to generate the transforms for 1,2 or 5. Option 5 will be most OGC API friendly solution.
+
+
