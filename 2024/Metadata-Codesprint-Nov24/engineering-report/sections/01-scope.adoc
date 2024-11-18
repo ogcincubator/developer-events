@@ -3,4 +3,6 @@
 
 OGC Code Sprints experiment with emerging ideas in the context of geospatial Standards and help improve interoperability of existing Standards by experimenting with new extensions or profiles. They are also used for building proofs-of-concept to support standards development activities and the enhancement of software products. The nature of the activities is influenced by whether a code sprint is 'generic' or 'focused'. All OGC working groups are invited and encouraged to set up a thread in generic code sprints, whereas focused code sprints are tailored to a specific set of standards (typically limited to three standards).
 
+In the case of MD stab=ndards hetergenous arrgh!
+
 This ER presents the high-level architecture of the code sprint and describes each of the standards and software packages that were deployed in support of the code sprint. The ER also discusses the results and presents a set of conclusions and recommendations. The recommendations identify ideas for future work, some of which may be more appropriate for testbeds, pilots, or other types of OGC initiatives. Therefore, the reader is encouraged to consider the recommended future work within the context of all OGC Standards development, collaborative solutions, and innovation activities.
