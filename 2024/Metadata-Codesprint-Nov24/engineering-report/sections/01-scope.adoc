@@ -26,4 +26,6 @@ The approach: 19115-1 and 19157-1 (data quality) are in scope and encoding will 
 A comprehensive XML 'real life' dataset has been created and converted to a GeoJSON preferred encoding.
 The GeoJSON example dataset is a subset (profile) of 19115-1 and 19157-1, but is considered to cover the essential part and is considered as the requirements that are set for the GeoJSON schema, with development pending resource allocation, ultimately resulting in the generation of a GeoJSON schema based on the dataset and UML model.
 
-Specific case studies with engagement in the first session included: #17
+Specific case studies with engagement in the first session included: #17 
+
+Another goal under consideration is to move the Geonetwork 4 FormatterAPI, as well as all its support, over to Geonetwork 5 via a set of XSLTs that take the underlying ISO XML documents and output DCAT-AP (country specific) XML RDF files, which is already working in Geonetwork 4, which will provide records infrastructure access to all of Geonetwork's output formats (more than just DCAT).
