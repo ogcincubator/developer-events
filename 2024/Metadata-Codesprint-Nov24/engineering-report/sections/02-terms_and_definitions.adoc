@@ -57,6 +57,7 @@ TEAM:: Test, Evaluation, And Measurement Engine
 UML:: Unified Modeling Language
 URI:: Uniform Resource Identifier
 URL:: Uniform Resource Locator
+W3C:: World Wide Web Consortium 
 WG:: Working Group
 XSLT:: Extensible Stylesheet Language Transformations
 
