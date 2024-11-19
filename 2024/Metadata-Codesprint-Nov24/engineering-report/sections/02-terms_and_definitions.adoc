@@ -9,13 +9,13 @@ An Application Programming Interface (API) is a standard set of documented and s
 
 A coordinate system that is related to the real world by a datum term name (source: ISO 19111).
 
-=== PROV 
-
-Provenance - in terms of a family of documents that defines a model, corresponding serializations and other supporting definitions to enable the inter-operable interchange of provenance information in heterogeneous environments
-
 === OpenAPI Document
 
 A document (or set of documents) that defines or describes an API. An OpenAPI definition uses and conforms to the OpenAPI Specification (https://www.openapis.org).
+
+=== PROV 
+
+Provenance - in terms of a family of documents that defines a model, corresponding serializations and other supporting definitions to enable the inter-operable interchange of provenance information in heterogeneous environments
 
 === Web API
 
@@ -29,6 +29,7 @@ AURIN:: Australian Urban Research Infrastructure Network
 CARE:: Collective benefit, Authority, Responsibility to control, Ethical behaviors
 CITE:: Compliance Interoperability & Testing Evaluation
 CRS:: Coordinate Reference System
+DAG:: Directed Acyclic Graph
 DOI:: Digital Object Identifier
 DCAT:: Data Catalog Vocabulary
 EDR:: Environmental Data Retrieval
