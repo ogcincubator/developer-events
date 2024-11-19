@@ -50,6 +50,7 @@ GeoDCAT:: a spatio-temporal profile of the W3C DCAT Recommendation
 GIS:: Geographic Information System
 GN:: GeoNetwork
 JSON:: JavaScript Object Notation
+ICSM:: Intergovernmental Committee on Surveying and Mapping
 ISO:: International Organization for Standardization
 NCRIS:: National Collaborative Research Infrastructure Strategy
 OGC:: Open Geospatial Consortium
