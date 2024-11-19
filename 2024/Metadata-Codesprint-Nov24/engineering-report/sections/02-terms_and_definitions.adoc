@@ -45,7 +45,8 @@ JSON:: JavaScript Object Notation
 ISO:: International Organization for Standardization
 NCRIS:: National Collaborative Research Infrastructure Strategy
 OGC:: Open Geospatial Consortium
-ORCID:: Open Researcher and Contributor ID, 
+ORCID:: Open Researcher and Contributor ID
+OWL:: Web Ontology Language
 OWS:: OGC Web Services
 PROV:: Provenance family of documents
 RDF:: Resource Description Framework
