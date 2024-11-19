@@ -73,6 +73,7 @@ CRS:: Coordinate Reference System
 DAG:: Directed Acyclic Graph
 DOI:: Digital Object Identifier
 DCAT:: Data Catalog Vocabulary
+DWG:: Domain Working Group
 EDR:: Environmental Data Retrieval
 FAIR:: Findability, Accessibility, Interoperability, and Reusability
 GeoDCAT:: a spatio-temporal profile of the W3C DCAT Recommendation
@@ -93,6 +94,7 @@ RDF:: Resource Description Framework
 REST:: Representational State Transfer
 SHACL:: Shapes Constraint Language
 STAC:: Spatial Temporal Asset Catalog
+SWG:: Standards Working Group
 TC 211:: ISO Technical Committee 211 - Geographic information/Geomatics
 TEAM:: Test, Evaluation, And Measurement Engine
 UML:: Unified Modeling Language
