@@ -37,6 +37,10 @@ A document (or set of documents) that defines or describes an API. An OpenAPI de
 
 formal representation of phenomena of a universe of discourse with an underlying vocabulary including definitions and axioms that make the intended meaning explicit and describe phenomena and their interrelationships.
 
+=== Profile
+
+set of one or more base standards or subsets of base standards, and, where applicable, the identification of chosen clauses, classes, options and parameters of those base standards, that are necessary for accomplishing a particular function.  Note: A profile is derived from base standards so that by definition, conformance to a profile is conformance to the base standards from which it is derived.
+
 === PROV 
 
 Provenance - in terms of a family of documents that defines a model, corresponding serializations and other supporting definitions to enable the inter-operable interchange of provenance information in heterogeneous environments, via W3C.
