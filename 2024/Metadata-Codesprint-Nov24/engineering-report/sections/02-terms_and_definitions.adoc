@@ -5,7 +5,7 @@
 
 An Application Programming Interface (API) is a standard set of documented and supported functions and procedures that expose the capabilities or data of an operating system, application, or service to other applications (adapted from ISO/IEC TR 13066-2:2016).
 
-=== coordinate reference system
+=== Coordinate Reference System
 
 A coordinate system that is related to the real world by a datum term name (source: ISO 19111).
 
@@ -29,13 +29,25 @@ A JSON-based Serialization for Linked Data
 
 A document (or set of documents) that defines or describes an API. An OpenAPI definition uses and conforms to the OpenAPI Specification (https://www.openapis.org).
 
+=== Ontology
+
+formal representation of phenomena of a universe of discourse with an underlying vocabulary including definitions and axioms that make the intended meaning explicit and describe phenomena and their interrelationships.
+
 === PROV 
 
 Provenance - in terms of a family of documents that defines a model, corresponding serializations and other supporting definitions to enable the inter-operable interchange of provenance information in heterogeneous environments, via W3C.
 
 === pyGeo
 
-a geometry manipulation framework for multidisciplinary design optimization.
+a geometry manipulation framework for multidisciplinary design optimization
+
+=== Schema
+
+formal description of a model
+
+==== Semantic Web
+
+Web of data with meaning. Note: The association of meaning allows data and information to be understood and processed by automated tools as well as by people.
 
 === Web API
 
