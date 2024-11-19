@@ -68,6 +68,7 @@ ORCID:: Open Researcher and Contributor ID
 OWL:: Web Ontology Language
 OWS:: OGC Web Services
 PROV:: Provenance family of documents
+PROV-O:: PROV Ontology
 RDF:: Resource Description Framework
 REST:: Representational State Transfer
 SHACL:: Shapes Constraint Language
