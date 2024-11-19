@@ -13,6 +13,10 @@ A coordinate system that is related to the real world by a datum term name (sour
 
 a type of graph in mathematics and computer science that represents a conceptual or mathematical model of a data pipeline, embodying a series of activities in a specific arrangement in which data flows through a finite set of nodes connected by edges. Notably, these graphs lack a designated start or end node and prevent data from looping back to its point of origin. Their popularity in data engineering stems from their clear depiction of Data Lineage and their suitability for functional approaches, ensuring idempotency in restarting pipelines without side effects. https://www.ssp.sh/brain/dag/
 
+=== Docker
+
+an open-source project that automates the deployment of applications as movable, independent containers 
+
 === F-UJI
 
 a web service to programmatically assess FAIRness of research data objects at the dataset level based on the FAIRsFAIR Data Object Assessment Metrics. https://fair-impact.eu/
