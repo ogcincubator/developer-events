@@ -31,7 +31,7 @@ A document (or set of documents) that defines or describes an API. An OpenAPI de
 
 === PROV 
 
-Provenance - in terms of a family of documents that defines a model, corresponding serializations and other supporting definitions to enable the inter-operable interchange of provenance information in heterogeneous environments
+Provenance - in terms of a family of documents that defines a model, corresponding serializations and other supporting definitions to enable the inter-operable interchange of provenance information in heterogeneous environments, via W3C.
 
 === pyGeo
 
