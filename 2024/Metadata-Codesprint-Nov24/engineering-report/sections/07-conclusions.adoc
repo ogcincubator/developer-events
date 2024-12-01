@@ -1,15 +1,9 @@
 [[conclusions]]
 == Conclusions
 
-The code sprint provided an environment for the development and testing of prototype implementations of open standards. The in-person participation of several editors of Standards meant that developers could provide feedback to the editors almost instantly. Further, the collaborative environment enabled developers to identify issues in products, fix open issues, develop new product features, improve documentation, and test interoperability with 3rd party products. Furthermore, participants were able to share knowledge in the mentor stream sessions.
+The code sprint provided a significant opportunity to highlight the heterogeneous nature of metadata standards and perspectives from multiple stakeholders.  As a result it was possible to articulate a coherent framework for understanding scope of different activities and a propose a coherent architecture to guide ongoing work in metadata standards.
 
-Regarding MapML, the participants demonstrated that the current specification of MapML can use implementations of the emerging OGC API - Maps Standard without modification. This engineering report concludes that the sprint participants proved that MapML has a role to play in the geospatial ecosystem and that MapML can be easily integrated into implementations of OGC API Standards. There are several potential avenues for future MapML within the OGC community, on both the innovation and standardization side. Therefore further discussion with the MapML community is needed to help chart a way forward for the specification.
-
-Regarding validators, the engineering report concludes that there is significant potential for client-side validators such as the Linter to enhance the developer experience, alongside server-side validators such as TEAM Engine. Such linters could be offered as a developer resource for those developers that would like to test their products without having the products certified compliant. TEAM Engine, as a server-side application, continues to be the ideal solution for certification of compliance to OGC Standards.
-
-Regarding Data Quality and AI, the engineering report concludes that the use cases for machine readable and executable provenance chains should be widened to include specific ML training data use cases. The ability to sample, correct, and train large datasets should have a reproducible method for training models.
-
-Overall, this engineering report concludes that the code sprint met all of its objectives and achieved its goal of accelerating the development and implementation of OGC Standards in software products. The following subsection presents recommendations for future work.
+In addition, progress was made on a number of specific activities, providing a validation that the proposed framework can be progressed incrementally, without it being necessary for all participants to fully engage with all the diverse aspects of metadata standardisation. The general principles of improving FAIR-ness of metadata standards, whilst supporting multiple existing and emerging communities
 
 === Future Work
 
@@ -17,20 +11,15 @@ Overall, this engineering report concludes that the code sprint met all of its o
 
 The sprint participants made the following recommendations regarding potential experiments in future Collaborative Solutions and Innovation (COSI) Program initiatives:
 
-* OGC API - 3D Geovolumes experimentation in the context of Digital Twins
-* CDB2 experimentation in the context of Digital Twins
-* Experimentation on consistency of metadata frameworks
-* Experimentation on consistency of parameter and schema fragments in APIs
-* Experimentation on OGC API - Features and Geocoding
+* Focus on FAIR publication of mappings between metadata standards
+*
+* Support for XSLT2 transformations
 
 ==== Prototyping
 
 The sprint participants made the following recommendations regarding prototype development in future COSI initiatives:
 
-* Initiative on Urban Digital Twins
-* An activity building on the ISO metadata activity
-* Prototyping of an HTML MapML validator, possibly as a service. See https://github.com/Maps4HTML/validator-mapml for ideas.
-* Prototyping of extension of MapML to enable it to consume the JSON-based payloads that are described in the OGC API family of standards
+*
 
 ==== Standardization
 

@@ -1,33 +1,24 @@
 [[results_pygeoapi]]
 ==== OSGeo pygeoapi
 
-===== Mentor stream: Adding a new OGC API to pygeoapi
+===== Extension of Records with PROV using pygeo templates
 
-Given recent updates to pygeoapi in support of API implementation modularity, a mentor stream
-was given, focusing on adding a new OGC API to pygeoapi.  Developers were shown how to add
-and hook new API functionality / endpoints into the pygeoapi core, as well as exposing via
-pygeoapi's OpenAPI functionality.  A https://docs.google.com/presentation/d/16IP1g_MNjNRsvHEDkbrdSpU2VR5uZi9l4a8sgFC2VcA[presentation]
-and https://github.com/tomkralidis/pygeoapi/tree/add-new-api[example application] were
-demonstrated and made available as proof of concept.
+pygeoapi's template system was extended to support provenance traces.
 
-image::images/pygeoapi-mentor-stream.png[align="center"]
+Provenance metadata is naturally is a directed acyclic graph (DAG) of arbitrary depth and detail.
 
+A simple catalog test case was established using the provenance model and the schema from https://ogcincubator.github.io/bblock-prov-schema/bblock/ogc.ogc-utils.prov.
 
-[[results_pygeoapi_processes_part2]]
-====== OGC API - Processes - Part 2 implementation
+A generalised provenance rendering template was then referenced when rendering a standardised property (_provenance_) configured to understand the high level abstract typing of Entity, Activity and Agent, and recursively nest content. (https://github.com/MarkusWilhelmJahn/pygeoapi/blob/master/CODESPRINT/prov_recursive.html)
 
-An initial prototype was implemented to support the OGC API - Processes - Part 2: Deploy, Replace, Undeploy https://docs.ogc.org/DRAFTS/20-044.html[draft standard].  Process creation was implemented by way of ingesting a https://commonwl.org[Common Workflow Language (CWL)] definition which referenced a Python application made available as a Docker image.  The Python application implemented water body detection, which took as input Copernicus Sentinel-2 or USSG Landsat-9 data and detected water bodies by applying the Otsu thresholding technique on the Normalized Difference Water Index (NDWI)footnote:[https://eoap.github.io/quickwin/app/water-bodies-detection].  This application was made available as an example in support of the https://docs.ogc.org/bp/20-089r1.html[OGC Best Practice for Earth Observation Application Package].
+This successfully presented such a provenance graph as shown:
 
-image::images/pygeoapi-oaproc-part2-new-process.png[align="center"]
+image::images/pygeoapi-prov.png[align="center"]
 
-The CWL was published and made available as an OGC API Process.  The process description included an ``executionUnit`` object providing the CWL definition.
+This has three significant implications for considering metadata standardisation:
 
-Process execution then invoked the https://cwltool.readthedocs.io[cwltool reference implementation] to deploy and run the application in a portable manner, producing a manifest of a STAC Catalog of the NDWI outputs.
+1. A rich provenance model can be handled with current reference implementation software and hence there is no substantial technical barrier
+1. Well-known metadata extensions can be supported using well-known attachment properties, which will be necessary for each object type (record, feature etc)
+1. Well-known schemas will be required to to allow predictable behaviour given the inherent complexity of some types of metadata.
 
-image::images/pygeoapi-oaproc-part2-new-process-execution.png[align="center"]
-
-The architecture of the implementation can be found below, and the associated implementation on https://github.com/tomkralidis/pygeoapi/tree/oaproc-part2[GitHub].  Future work includes 'process replace' and 'process delete' functionality, as well as describing CWL inputs and outputs as part of the native process description model.
-
-image::images/pygeoapi-oaproc-part2-architecture.png[align="center"]
-
-Special thanks is given to the https://github.com/eoap[Earth Observation Application Package] resources and examples provided on GitHub as well as Gérald Fenoy of GeoLabs SARL for providing valuable explanation, advice and recommendation.
+It is also worth noting that a scalable solution will probably require more dynamic UI filtering, and can load referenced objects that are not directly embedded in the results.

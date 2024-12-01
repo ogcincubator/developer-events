@@ -15,24 +15,13 @@ The rest of this section describes the software deployed, and standards implemen
 
 include::architecture/ogcapifeatures.adoc[]
 
-include::architecture/ogcapiedr.adoc[]
-
 include::architecture/ogcapiprocesses.adoc[]
-
-include::architecture/trainingdmlai.adoc[]
-
-include::architecture/coveragejson.adoc[]
 
 
 === Candidate OGC Standards
 
 include::architecture/ogcapirecords.adoc[]
 
-include::architecture/ogcapidggs.adoc[]
-
-include::architecture/jsonfg.adoc[]
-
-include::architecture/dggsjson.adoc[]
 
 === Specifications from the Community
 
@@ -44,6 +33,4 @@ include::architecture/pygeoapi.adoc[]
 
 include::architecture/pygeometa.adoc[]
 
-include::architecture/cubeserv.adoc[]
 
-include::architecture/rainbow.adoc[]

@@ -6,14 +6,16 @@
 :committee: technical
 :draft: 1.0
 :external-id: http://www.opengis.net/doc/{doc-type}/{standard}/{m.n}
-:docnumber: 24-034
+:docnumber: 24-063
 :received-date: 2999-11-20
 :issued-date: 2999-01-25
 :published-date: 2999-03-30
-:fullname: Gobe Hobona
-:fullname_2: Joana Simoes
-:docsubtype: implementation
-:keywords: ogcdoc, OGC document, API, openapi, html, tdml-ai, mapml, json-fg
+:fullname: Rob Atkinson
+:fullname_2: Peter Parslow
+:fullname_3: David Stolarz
+:fullname_4: Byron Cochrane
+:docsubtype: engineering report
+:keywords: metadata, geoDCAT, 19115, Records, STAC, Provenance, Building Blocks
 :mn-document-class: ogc
 :mn-output-extensions: xml,html,doc,pdf
 :toclevels: 3
@@ -46,8 +48,6 @@ include::sections/07-conclusions.adoc[]
 ////
 add or remove annexes after "A" as necessary
 ////
-
-include::sections/annex-a.adoc[]
 
 ////
 Revision History should be the last annex before the Bibliography

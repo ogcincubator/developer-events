@@ -1,0 +1,5 @@
+[[metadata_framework_discussion]]
+
+==== A framework for developing metadata standards
+
+image::images/metadata_patterns.png[align="center"]
