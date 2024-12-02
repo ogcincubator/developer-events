@@ -7,30 +7,15 @@ In addition, progress was made on a number of specific activities, providing a v
 
 === Future Work
 
-==== Experimentation
-
-The sprint participants made the following recommendations regarding potential experiments in future Collaborative Solutions and Innovation (COSI) Program initiatives:
+The sprint participants made the following recommendations regarding future work:
 
 * Focus on FAIR publication of mappings between metadata standards
-*
 * Support for XSLT2 transformations
 
-==== Prototyping
-
-The sprint participants made the following recommendations regarding prototype development in future COSI initiatives:
-
-*
 
 ==== Standardization
 
 The sprint participants made the following recommendations regarding future discussions in working groups and the Standards Program:
 
-* Discussion on consistency of parameter and schema fragments in APIs
-* Development of a roadmap for a possible TrainingDML-AI conformance class for OGC API - Records
-* Guidance on the consistency of scale between Observations, Measurements, and Samples (OMS) and the API Standards
-* Addition of a security element in future versions of TrainingDML-AI and other metadata encodings
-* Run a code sprint focused on machine-readable provenance chains, model reproducibility, and recording data quality.
-* Update OGC RAINBOW to offer executable code and variable injection to ensure the chains are machine readable.
-* Test the process of machine-readable provenance chains with several different datasets with a focus on model reproducibility.
-* Provide feedback to ISO/TC 211 on findings regarding Data Quality and AI.
+*
 

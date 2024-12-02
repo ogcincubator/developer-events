@@ -25,12 +25,11 @@ include::architecture/ogcapirecords.adoc[]
 
 === Specifications from the Community
 
-include::architecture/iso19157_3.adoc[]
 
 === Software Projects and Products
 
 include::architecture/pygeoapi.adoc[]
 
-include::architecture/pygeometa.adoc[]
+
 
 

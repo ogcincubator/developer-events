@@ -1,5 +1,32 @@
-[[metadata_framework_discussion]]
+[[metadata_framework]]
 
 ==== A framework for developing metadata standards
 
-image::../../images/metadata_patterns.png[align="center"]
+It is commonly understood that *profiles* are necessary to implement a general metadata standard in the context of a specific application domain or community of practice.
+
+The description and management of such profiles is however highly variable in implementation practice.
+
+One key pattern is the *"Core + extensions"* model - characterised by the OGC ModSpec (https://www.ogc.org/standards/modularspec[OGC 08-131r3]), and implemented in various forms including:
+
+- STAC extensions
+- DCAT profiles published for use in EU Portals
+- ISO 19115-Part 2,3, etc
+
+In addition, metadata elements defined by different profiles may be combined (*composition*)
+
+Finally, metadata specifications may be model and composed, but *bundled* into a single form for implementation convenience - such as JSON schema for OpenAPI 3.0 (3.1 does not require this as it follows more modern JSON schema)
+
+And, since many systems have their own technology base, and metadata to describe re-use means legacy systems will be the source of much metadata, not single solution will hold universal sway, hence the *mappings* between standards will be a common concern.
+
+This results in a simple architectural framework for understanding the scope of different metadata standardisation activities.
+
+.Metadata Standardisation Patterns
+image::images/metadata_patterns.png[align="center"]
+
+Note that mappings themselves relate to the different ways metadata standards are defined - in that mappings for core and extensions, or restricted profiles can be *composed* into a complete mapping, and *bundled* into some executable form.
+
+The bundling of JSON-LD contexts supported by the OGC Building Block Register represents evidence that these patterns are inevitable, complex, but feasible if a level of standardisation is imposed on the standards themselves. This may be in the form of FAIR machine readable descriptions of available standards, noting the requirement to transparently reference the authoritative standard being described.
+
+==== Key requirements
+
+[bullet points from whiteboard]
