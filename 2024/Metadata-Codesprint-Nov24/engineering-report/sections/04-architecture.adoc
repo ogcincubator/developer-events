@@ -1,27 +1,43 @@
 [[architecture]]
 == High-Level Architecture
 
-As illustrated in <<img_architecture>>, the sprint architecture was designed to enable client applications to connect to different servers that implement a variety of standards. The architecture also included several different software libraries that support open geospatial standards and enable the extraction, transformation, and loading of geospatial data. The participants deployed the their software in their own infrastructure.
+As illustrated in <<img_architecture>>, the sprint architecture is somewhat loose - to identify what aspects of metadata standardisation the community considers necessary, but also to explore the commonalities and principles that can be discovered from current activities.
+
+It was not assumed that specific standards could be developed not tested thoroughly, however the general principle of extending multiple metadata standards with extensions based on common models was prioritised, with a focus on Provenance.  Provenance represents a complex challenge with a well-known conceptual model, so testing if a solution to this complex challenge can be successfully re-used provides clear direction to the problems of extending metadata standards for any specific aspects.
+
+The key *methodology* used was the testing of examples based on prior work to model a reusable JSON schema for PROV-O with a ready-to-use JSON-LD semantic mapping, thus encapsulating a complex problem to make implementation feasible. Some codesprint activities tested the feasibility of re-use of such an extension.
 
 [[img_architecture]]
 .High Level Overview of the Sprint Architecture
 image::images/architecture.png[align="center",width=1200]
+
+<<img_relationships>> illustrates some of the key metadata standards discussed and how they might relate as extension, profiles or mappings.
+
+[[img_relationships]]
+.Relationships between metadata standards, extensions and profiles
+image::images/relationships.png[align="center",width=1200]
+
 
 The rest of this section describes the software deployed, and standards implemented during the code sprint or in support of the code sprint.
 
 
 === Approved OGC Standards
 
-
 include::architecture/ogcapifeatures.adoc[]
 
+// Matt Purss may have something to contribute here from prior work.
 include::architecture/ogcapiprocesses.adoc[]
+
+=== Approved ISO Standards
 
 
 === Candidate OGC Standards
 
 include::architecture/ogcapirecords.adoc[]
 
+=== Candidate ISO Standards
+
+The roadmap for ISO 19115-4, JSON encoding was discussed. The code sprint illustrated how modularity for such an encoding could be approached.
 
 === Specifications from the Community
 

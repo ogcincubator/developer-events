@@ -15,11 +15,9 @@ The subject of this Engineering Report (ER) is a code sprint that was held on No
 [.preface]
 == Executive Summary
 
-The rapid adoption of Artificial Intelligence (AI) has highlighted the need for good quality training data to enable the systems to offer effective decision making support. Data quality is therefore a critical requirement for future geospatial technologies just as it has always been for historic ones. Whereas some of those future geospatial technologies will likely rely on raster data, many others will rely on vector feature data. Therefore, validators capable of checking the validity of vector feature data files are likely to play a key role in an AI-driven future.
-
 The focus of this Engineering Report (ER) is a code sprint that was held on November 18 and 19, 2024 in Sydney, Australia and virtually online, to advance the support and development of open standards within the developer community. It was sponsored by AURIN (the Australian Urban Research Information Network), and SURROUND Australia (catering), and was organized by the GeoDCAT Standards Working Group (SWG) and Metadata & Catalogues Domain Working Group (DWG). The University of New South Wales (UNSW) Sydney provided a hosting space in their Anita B. Lawrence Centre, with much appreciation. This code sprint coincided with the ISO TC211 Plenary meetings with the intention to focus on implementations of various OGC and ISO metadata standards using the OGC API family of Standards, as well as the GeoDCAT semantic model for dataset descriptions. A pre-event webinar was held on 24 October 2024 to review proposals and use cases.  For more information on the Sprint, including objectives, agenda, and registration, visit the November 2024 OGC Metadata Code Sprint wiki page on GitHub ( https://github.com/opengeospatial/GeoDCAT-SWG/wiki/OGC-Metadata-Codesprint-2024-%E2%80%90-Sydney ). Information on other OGC Sprints or events for developers can be found on the OGC Developer Events wiki on GitHub.
 
-The Metadata Code Sprint will have a primary focus on the following group of tools, APIs and encodings:
+The Metadata Code Sprint was planned to have a primary focus on the following group of tools, APIs and encodings:
 
 OGC GeoDCAT  – (under development) a spatio-temporal profile of the W3C DCAT Recommendation DCAT, and provide guidance about its use and further specialization. OGC GeoDCAT is inspired by the GeoDCAT-AP specification but defines just the internationally relevant concepts to allow wider application. The key areas to consider are around the expression of place and time, such as GeoDCAT-AP properties-for-location
 
@@ -33,37 +31,6 @@ Other metadata standards, such as CDIF, EML, and Local Context may be included w
 
 Particular focus will be placed on use of OGC modular “building blocks for location” that address both simple and the most complex use-cases.
 
-Before and during the code sprint, there will be an opportunity for joint discussion with all participants on the goals and objectives of the event, as well as the final briefing of findings and opinions of the participants. However, the majority of the time will be spent in collaboration between participants in active coding. 
-
-_______________________________________________________________________________
-PRIOR CONTENT FOLLOWS - SO THIS DOC NEEDS RECOMMENDATIONS FROM THIS METADATA NOV 2024 SPRINT
-
-The sprint participants made the following recommendations regarding potential experiments in future Collaborative Solutions and Innovation (COSI) Program initiatives:
-
-* OGC API - 3D Geovolumes experimentation in the context of Digital Twins
-* CDB2 experimentation in the context of Digital Twins
-* Experimentation on consistency of metadata frameworks
-* Experimentation on consistency of parameter and schema fragments in APIs
-* Experimentation on OGC API - Features and Geocoding
-
-The sprint participants made the following recommendations regarding prototype development in future COSI initiatives:
-
-* Initiative on Urban Digital Twins
-* An activity building on the ISO metadata activity
-* Prototyping of an HTML MapML validator, possibly as a service. See https://github.com/Maps4HTML/validator-mapml for ideas.
-* Prototyping of extension of MapML to enable it to consume the JSON-based payloads that are described in the OGC API family of standards
-
-The sprint participants made the following recommendations regarding future discussions in working groups and the Standards Program:
-
-* Discussion on consistency of parameter and schema fragments in APIs
-* Development of a roadmap for a possible TrainingDML-AI conformance class for OGC API - Records
-* Guidance on the consistency of scale between Observations, Measurements, and Samples (OMS) and the API Standards
-* Addition of a security element in future versions of TrainingDML-AI and other metadata encodings
-* Run a code sprint focused on machine-readable provenance chains, model reproducibility, and recording data quality.
-* Update OGC RAINBOW to offer executable code and variable injection to ensure the chains are machine readable.
-* Test the process of machine-readable provenance chains with several different datasets with a focus on model reproducibility.
-* Provide feedback to ISO/TC 211 on findings regarding Data Quality and AI.
-
 
 == Submitters
 
@@ -74,21 +41,11 @@ All questions regarding this document should be directed to the editors or the c
 [options="header"]
 |===
 |	Name | Organization | Role
-|	Gobe Hobona| OGC | Editor
-|	Joana Simoes | OGC |Editor
-|	Tom Kralidis | OSGeo | Contributor
-|	Chris Little | Met Office | Contributor
-|	Frank Terpstra | Geonovum | Contributor
-|	Joost Farla | Geonovum | Contributor
-|	Maxime Collombin | University of Applied Sciences, Western Switzerland (HEIG-VD)  | Contributor
-|	Sam Meek |  Helyx Secure Information Systems | Contributor
-|	Peter Rushforth | Natural Resources Canada | Contributor
-|	Aliyan Haq | Natural Resources Canada | Contributor
-|	Rui Cavaco | Norte Portugal Regional Coordination and Development Commission | Contributor
+|	Rob Atkinson| OGC | Editor
+|	Byron Cochrane | Openworks |Editor
+|	David Stolarz | ASPRS | Contributor
+|	Peter Parslow | ISO TC 211 | Contributor
 |	Ivana Ivanova | Curtin University | Contributor
-|	Jerome St-Louis | Ecere | Contributor
-|	Ricardo Garcia Silva | Geobeyond | Contributor
-|	Samantha Lavender | Pixalytics Ltd | Contributor
-|	Joan Maso | UAB-CREAF | Contributor
 |	Panagiotis (Peter) A. Vretanos | CubeWerx Inc. | Contributor
+| to be completed... || All other contributors
 |===

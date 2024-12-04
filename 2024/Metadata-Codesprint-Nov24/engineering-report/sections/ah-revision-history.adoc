@@ -9,6 +9,6 @@
 [width="90%",options="header"]
 |===
 |Date |Release |Author | Primary clauses modified |Description
-|2024-07-11 |0.1 |G. Hobona |all |initial version
-|2024-07-14 |0.2 |T. Kralidis |all |OSGeo updates
+|2024-11-19 |0.1 |D. Stolarz |all |capture scope discussions
+|2024-12-04 |0.2 |R. Atkinson |all |Initial version
 |===

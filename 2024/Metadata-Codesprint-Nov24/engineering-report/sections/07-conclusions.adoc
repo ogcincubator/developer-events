@@ -10,12 +10,8 @@ In addition, progress was made on a number of specific activities, providing a v
 The sprint participants made the following recommendations regarding future work:
 
 * Focus on FAIR publication of mappings between metadata standards
-* Support for XSLT2 transformations
+* Support for XSLT2 transformations in metadata publishing
 
+Ongoing activities are planned as part of research projects to complete the implementation of the XAI approach using GeoDCAT, OGC API Processes and OGC API Records etc/
 
-==== Standardization
-
-The sprint participants made the following recommendations regarding future discussions in working groups and the Standards Program:
-
-*
 

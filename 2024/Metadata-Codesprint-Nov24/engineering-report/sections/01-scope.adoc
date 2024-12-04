@@ -3,8 +3,7 @@
 
 OGC Code Sprints experiment with emerging ideas in the context of geospatial Standards and help improve interoperability of existing Standards by experimenting with new extensions or profiles. They are also used for building proofs-of-concept to support standards development activities and the enhancement of software products. The nature of the activities is influenced by whether a code sprint is 'generic' or 'focused'. All OGC working groups are invited and encouraged to set up a thread in generic code sprints, whereas focused code sprints are tailored to a specific set of standards (typically limited to three standards).
 
-=======
-In the case of "metadata", this is a ubiquitous concept with a long and varied tradition of handling metadata in many places, catalogs of "data set descriptions", embedded in data objects, documented in specifications for such data, attached to deployments of services to serve or utilise data etc.  Each technology and each domain of application has its own legacy and natural strengths and weaknesses.  This code sprint will example some of the common patterns and overarching needs in an endeavour to improve and extend various OGC metadata approaches.
+In the case of "metadata", this is a ubiquitous concept with a long and varied tradition of handling metadata in many places, catalogs of "data set descriptions", embedded in data objects, documented in specifications for such data, attached to deployments of services to serve or utilise data etc.  Each technology and each domain of application has its own legacy and natural strengths and weaknesses.  This code sprint will examine some of the common patterns and overarching needs in an endeavour to improve and extend various OGC metadata approaches.
 
 This ER presents the high-level architecture of the code sprint and describes each of the standards and software packages that were deployed in support of the code sprint. The ER also discusses the results and presents a set of conclusions and recommendations. The recommendations identify ideas for future work, some of which may be more appropriate for testbeds, pilots, or other types of OGC initiatives. Therefore, the reader is encouraged to consider the recommended future work within the context of all OGC Standards development, collaborative solutions, and innovation activities.
 
@@ -57,10 +56,16 @@ These are all fairly small individually - but publishing the profiles as Buildin
 
 
 
-Proposal #?? Data Format and Validation Service For Interoperability Between Analytics and Data
+=== Motivating Use Case:  Data Format and Validation Service For Interoperability Between Analytics and Data
 
-As systems become more complicated, and a system of systems approach becomes the norm rather than the dream, it's important that datasets and containerised analytics to be able declare, trust, and verify that data meets certain assertions and standards. AURIN has been contemplating an idea for building a Data Format and Validation Registry, first internally and then externally, that would mix persistent identifiers, human readable data assertions, and machine readable and executable assertions on data formats to add an automated "trust, with verification" layer to their data/analytics ecosystem.
+The following concept was submitted by AURIN, as an e-Research infrastructure provider.
+
+
+_As systems become more complicated, and a system of systems approach becomes the norm rather than the dream, it's important that datasets and containerised analytics to be able declare, trust, and verify that data meets certain assertions and standards. AURIN has been contemplating an idea for building a Data Format and Validation Registry, first internally and then externally, that would mix persistent identifiers, human readable data assertions, and machine readable and executable assertions on data formats to add an automated "trust, with verification" layer to their data/analytics ecosystem.
 
 The basic sketch would be to have a minted persistent identifier (similar to a DOI or an ORCID) of a description that links to a human readable and machine readable page describing what this data format is and what assertions data would have to meet to be considered valid. A preliminary prototype of the service could have a sort of standard DOI type link that would resolve to a page with human readable metadata about the data format, and then validation scripts or attached assertions in a validation language, such as Great Expectations, or similar.
 
-The challenge, beyond vetting the approach is to think about what metadata should be provided on the other end of that "format persistent identifier" link that would allow for a service to independently and automatically verify that a dataset complies with the standard it claims to adhere to.
+The challenge, beyond vetting the approach is to think about what metadata should be provided on the other end of that "format persistent identifier" link that would allow for a service to independently and automatically verify that a dataset complies with the standard it claims to adhere to._
+
+This challenge is open-ended to an extent, however the <<metadata_framework>> articulated during the code sprint provides a basis for designing such a metadata capability in a scalable, sustainable fashion using fit-for-purpose standardised components.  The completed exercises using Provenance as such a component highlight the feasibility of having semantically rich components combined with OGC and ISO "base" standards.
+

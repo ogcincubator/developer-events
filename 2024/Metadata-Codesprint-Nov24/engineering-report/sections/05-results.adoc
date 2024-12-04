@@ -13,9 +13,9 @@ include::results/metadata_framework.adoc[]
 
 include::results/ogcapirecords.adoc[]
 
+=== Common Patterns
 
-=== Specifications from the Community
-
+include::results/xai.adoc[]
 
 === Software Projects and Products
 
