@@ -1,0 +1,25 @@
+[[results_Geonetwork]]
+==== OSGeo GeoNetwork
+
+===== GeoNetwork 5 DCAT-AP and OGCAPI-Records
+
+The GeoNetwork project recently started development of https://github.com/geonetwork/geonetwork[GeoNetwork 5].  This is a new GeoNetwork architecture based on the current, industry-leading, https://github.com/geonetwork/core-geonetwork/[GeoNetwork 4].  It incorporates ideas experimented in the https://github.com/geonetwork/geonetwork-microservices[GeoNetwork Microservices] project.
+
+The two main goals of this sprint was to start development on an OGCAPI-Records implementation and country specific DCAT-AP and GeoDCAT outputs.  Since the GeoNetwork 5 project is so new, these functionalities will be first-class in the architecture.  
+
+Several GeoNetwork core committers are supporting this work - Jeroen Ticheler (GeoCat), Francois Prunayre (CampToCamp), Jose Garcia (GeoCat), and David Blasby (GeoCat).  This code sprint was very beneficial because it gave an opportunity for these developers to communicate with other stakeholders and learn of other opportunities, similar work, and common issues.  This has already greatly improve the architecture, direction, and implementation.
+
+.Overview of GeoNetwork 5 DCAT-AP and OGCAPI-Records Implementation Plan
+image::images/geonetwork.png[width=650,align="center"]
+
+
+====== GeoNetwork 5 OGCAPI-Records
+
+One of the goals of GeoNetwork 5 is to have core support for the OGCAPI-Records specification.  This will follow from the initial implementation, used by many, in the GeoNetwork Microservices project.  The GeoNetwork 5 implementation will leverage, more fully, the OGC's https://www.openapis.org/[OpenAPI] https://github.com/opengeospatial/ogcapi-records/blob/master/core/openapi/schemas[.yaml] definitions for the core data model and endpoints.
+
+
+====== GeoNetwork 5 DCAT-AP 
+
+GeoNetwork 4 recently https://github.com/geonetwork/core-geonetwork/pull/8547[added] much better support for DCAT-AP (and GeoDCAT) output, based on XSLT transformations from the base ISO (xml) metadata records.  
+
+The second sprint goal was to start moving the DCAT-AP (and GeoDCAT) output support to GeoNetwork 5 and integrate all the `FormatterApi` work as first class functionality inside the OGCAPI-Records.

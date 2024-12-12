@@ -20,3 +20,4 @@ include::results/xai.adoc[]
 === Software Projects and Products
 
 include::results/pygeoapi.adoc[]
+include::results/geonetwork.adoc[]
