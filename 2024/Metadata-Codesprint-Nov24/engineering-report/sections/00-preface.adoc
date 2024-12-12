@@ -31,6 +31,12 @@ Other metadata standards, such as CDIF, EML, and Local Context may be included w
 
 Particular focus will be placed on use of OGC modular “building blocks for location” that address both simple and the most complex use-cases.
 
+== Acknowledgements
+
+OGC thanks the following organisations for material support for this codesprint:
+
+- [University of NSW School of the Built Environment, Geospatial Research Innovation Development (UNSW GRID)](https://www.unsw.edu.au/arts-design-architecture/our-schools/built-environment/our-research/clusters-groups/grid) for the venue and logistics.
+- [AURIN](https://aurin.org.au/) and [SURROUND Australia](https://surroundaustralia.com/) for catering.
 
 == Submitters
 
