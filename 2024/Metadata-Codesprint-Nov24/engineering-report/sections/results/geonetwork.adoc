@@ -7,7 +7,7 @@ The GeoNetwork project recently started development of https://github.com/geonet
 
 The two main goals of this sprint was to start development on an OGCAPI-Records implementation and country specific DCAT-AP and GeoDCAT outputs.  Since the GeoNetwork 5 project is so new, these functionalities will be first-class in the architecture.  
 
-Several GeoNetwork core committers are supporting this work - Jeroen Ticheler (GeoCat), Francois Prunayre (CampToCamp), Jose Garcia (GeoCat), and David Blasby (GeoCat).  This code sprint was very beneficial because it gave an opportunity for these developers to communicate with other stakeholders and learn of other opportunities, similar work, and common issues.  This has already greatly improve the architecture, direction, and implementation.
+Several GeoNetwork core committers are supporting this work - Jeroen Ticheler (GeoCat), Francois Prunayre (titellus), Jose Garcia (GeoCat), and David Blasby (GeoCat).  This code sprint was very beneficial because it gave an opportunity for these developers to communicate with other stakeholders and learn of other opportunities, similar work, and common issues.  This has already greatly improve the architecture, direction, and implementation.
 
 .Overview of GeoNetwork 5 DCAT-AP and OGCAPI-Records Implementation Plan
 image::images/geonetwork.png[width=650,align="center"]
