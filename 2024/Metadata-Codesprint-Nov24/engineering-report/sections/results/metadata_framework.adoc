@@ -42,6 +42,7 @@ Note that mappings themselves relate to the different ways metadata standards ar
 
 The bundling of JSON-LD contexts supported by the OGC Building Block Register represents evidence that these patterns are inevitable, complex, but feasible if a level of standardisation is imposed on the standards themselves. This may be in the form of FAIR machine readable descriptions of available standards, noting the requirement to transparently reference the authoritative standard being described.
 
-==== Key requirements
+==== Key Recommendations
 
-[bullet points from whiteboard]
+- Explore alignment of metadata standards and development approaches using the framework to identify common approaches to different aspects where possible
+- publish mappings between metadata standards in a FAIR way.
