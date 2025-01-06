@@ -1,5 +1,5 @@
-= July 2024 Open Standards Code Sprint Summary Engineering Report
-:doctype: engineering-report
+= Nov 2024 Metadata CodeSprint Summary Report
+:doctype: discussion-paper
 :encoding: utf-8
 :lang: en
 :status: draft
@@ -14,8 +14,9 @@
 :fullname_2: Peter Parslow
 :fullname_3: David Stolarz
 :fullname_4: Byron Cochrane
-:docsubtype: engineering report
-:keywords: metadata, geoDCAT, 19115, Records, STAC, Provenance, Building Blocks
+:keywords: metadata, GeoDCAT, 19115, Records, STAC, Provenance, Building Blocks
+:comment: ### Semicolon-delimited list of the submitting organizations; mandatory
+:submitting-organizations: OGC;ISO TC211
 :mn-document-class: ogc
 :mn-output-extensions: xml,html,doc,pdf
 :toclevels: 3
