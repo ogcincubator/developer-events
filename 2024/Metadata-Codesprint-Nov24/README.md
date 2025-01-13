@@ -1,4 +1,7 @@
-# Metadata Codesprint Engineering Report
+# Nov 2024 Metadata Codesprint Report
+
+[Preview HTML version](https://ogcincubator.github.io/developer-events/2024/Metadata-Codesprint-Nov24/discussion_paper/document.html)
+
 ## Introduction
 The OGC GeoDCAT SWG (with the OGC MetaCata DWG) ran a two day code sprint, as described at https://github.com/opengeospatial/GeoDCAT-SWG/tree/main/workshops/2024/OGC_Metadata_Codesprint
 A lot of possible work items had been proposed as issues (https://github.com/opengeospatial/GeoDCAT-SWG/issues) in that repository & as comments on one specific issue (https://github.com/opengeospatial/GeoDCAT-SWG/issues/17). With two developers in the room, two in the Americas and the promise of some joining from Europe, it seemed that the favourite topic areas were:
@@ -6,9 +9,8 @@ A lot of possible work items had been proposed as issues (https://github.com/ope
 * metadata for AI / OGC API Processes & Large Language Models (#18)(
 * ISO 19115-1 to (Geo)DCAT mapping 
 
-Others present thought to start on this engineering report
-## Metadata for AI
-Developers: (both in Sydney)
+This repository contains a report using the OGC Discussion Paper format (Metanorma toolchain).
+
 ## Use of PROV in GeoDCAT & OGC API Record
 Developers: 
 See https://github.com/opengeospatial/GeoDCAT-SWG/issues/24
