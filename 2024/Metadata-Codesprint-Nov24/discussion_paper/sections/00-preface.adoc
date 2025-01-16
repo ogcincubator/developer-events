@@ -15,7 +15,7 @@ The subject of this Discussion Paper is a code sprint that was held on November 
 [.preface]
 == Summary
 
-The focus of this Discussion Paper is the findings from a code sprint and discussions that was held on November 18 and 19, 2024 in Sydney, Australia and virtually online, to advance the support and development of open standards within the developer community. It was sponsored by AURIN (the Australian Urban Research Information Network), and SURROUND Australia (catering), and was organized by the GeoDCAT Standards Working Group (SWG) and Metadata & Catalogues Domain Working Group (DWG). This code sprint coincided with the ISO TC211 Plenary meetings with the intention to focus on implementations of various OGC and ISO metadata standards using the OGC API family of Standards, as well as the GeoDCAT semantic model for dataset descriptions. A pre-event webinar was held on 24 October 2024 to review proposals and use cases.  For more information on the Sprint, including objectives, agenda, and registration, visit the November 2024 OGC Metadata Code Sprint wiki page on GitHub ( https://github.com/opengeospatial/GeoDCAT-SWG/wiki/OGC-Metadata-Codesprint-2024-%E2%80%90-Sydney ). Information on other OGC Sprints or events for developers can be found on the OGC Developer Events wiki on GitHub.
+The focus of this Discussion Paper is the findings from a code sprint and discussions that was held on November 18 and 19, 2024 in Sydney, Australia and virtually online, to advance the support and development of open standards within the developer community. It was sponsored by AURIN (the Australian Urban Research Information Network), and SURROUND Australia (catering), and was organized by the GeoDCAT Standards Working Group (SWG) and Metadata & Catalogues Domain Working Group (DWG). This code sprint coincided with the ISO/TC 211 Plenary meetings with the intention to focus on implementations of various OGC and ISO metadata standards using the OGC API family of Standards, as well as the GeoDCAT semantic model for dataset descriptions. A pre-event webinar was held on 24 October 2024 to review proposals and use cases.  For more information on the Sprint, including objectives, agenda, and registration, visit the November 2024 OGC Metadata Code Sprint wiki page on GitHub ( https://github.com/opengeospatial/GeoDCAT-SWG/wiki/OGC-Metadata-Codesprint-2024-%E2%80%90-Sydney ). Information on other OGC Sprints or events for developers can be found on the OGC Developer Events wiki on GitHub.
 
 The Metadata Code Sprint was planned to have a primary focus on the following group of tools, APIs and encodings:
 
@@ -50,7 +50,7 @@ All questions regarding this document should be directed to the editors or the c
 |	Rob Atkinson| OGC | Editor
 |	Byron Cochrane | Openworks |Editor
 |	David Stolarz | ASPRS | Contributor
-|	Peter Parslow | ISO TC 211 | Contributor
+|	Peter Parslow | ISO/TC 211 | Contributor
 |	Ivana Ivanova | Curtin University | Contributor
 |	Panagiotis (Peter) A. Vretanos | CubeWerx Inc. | Contributor
 | to be completed... || All other contributors
