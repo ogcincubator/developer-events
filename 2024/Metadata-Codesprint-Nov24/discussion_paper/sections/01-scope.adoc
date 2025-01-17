@@ -11,7 +11,7 @@ The idea is to determine and demonstrate where and when different standards (par
 
 OGC will provide an open source framework for testing mappings between standards, using test case examples covering Records, STAC and DCAT. Code sprint participants would be able to extend this to XML based metadata standards such as ISO 19115, in a way that is extensible to various profiles in use. This could leverage skills in any or all of coding, datamodelling, metadata standards or application domain requirements.
 
-Potential scope from an ISO TC 211 perspective includes canvassing for views on what could be useful in regards to an upcoming revision of ISO 19115-1:2014, including the potential for a formal document on how to map ISO 19115-1 to DCAT, or perhaps a new version of ISO 19115-1 restructured using the DCAT terms and structure, with the intention of aligning the encoding of ISO 19115-1 with one or more encodings of DCAT.  Similarly, is there user demand for an RDF/XML and/or OWL "encoding" of ISO 19115-1 in an official or recommended form?
+Potential scope from an ISO/TC 211 perspective includes canvassing for views on what could be useful in regards to an upcoming revision of ISO 19115-1:2014, including the potential for a formal document on how to map ISO 19115-1 to DCAT, or perhaps a new version of ISO 19115-1 restructured using the DCAT terms and structure, with the intention of aligning the encoding of ISO 19115-1 with one or more encodings of DCAT.  Similarly, is there user demand for an RDF/XML and/or OWL "encoding" of ISO 19115-1 in an official or recommended form?
 
 More specifically, in terms of a specific "code sprint" activity on 19115, potential foci could look to define and exercise the "mapping" - this could be done several ways and the GeoDCAT Building Blocks can be used to execute, test and publish these mappings. Five options worthy of consideration:
 
@@ -22,7 +22,7 @@ custom scripts taking a mapping table and generating or incorporating custom tra
 Take a 19115 -> OGC Records mapping and use the Records->DCAT mapping under development
 Note that option 4 could be used to generate the transforms for 1,2 or 5. Option 5 will be most OGC API friendly solution.
 
-Similarly, ISO TC 211 - working group 7 - Information Communities, is developing a JSON implementation of the 19115 metadata-standard, the 19115-4, Geographic information — Metadata — Part 4: JSON schema implementation of metadata fundamentals, and are looking for help on creating a GeoJSON schema.
+Similarly, ISO/TC 211 - working group 7 - Information Communities, is developing a JSON implementation of the 19115 metadata-standard, the 19115-4, Geographic information — Metadata — Part 4: JSON schema implementation of metadata fundamentals, and are looking for help on creating a GeoJSON schema.
 
 The approach: 19115-1 and 19157-1 (data quality) are in scope and encoding will be in GeoJSON although automated generation from uml to GeoJSON schema is possible, but creates an overly-complex JSON schema which may be not fit for purpose.
 A comprehensive XML 'real life' dataset has been created and converted to a GeoJSON preferred encoding.
