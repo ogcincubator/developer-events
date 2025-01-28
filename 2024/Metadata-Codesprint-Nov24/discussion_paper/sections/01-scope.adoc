@@ -28,6 +28,7 @@ The approach: 19115-1 and 19157-1 (data quality) are in scope and encoding will 
 A comprehensive XML 'real life' dataset has been created and converted to a GeoJSON preferred encoding.
 The GeoJSON example dataset is a subset (profile) of 19115-1 and 19157-1, but is considered to cover the essential part and is considered as the requirements that are set for the GeoJSON schema, with development pending resource allocation, ultimately resulting in the generation of a GeoJSON schema based on the dataset and UML model.
 
+Could be as part of a OGC API Records GeoDCAT response (https://github.com/opengeospatial/GeoDCAT-SWG/issues/17#issuecomment-2434553700, https://github.com/opengeospatial/GeoDCAT-SWG/issues/17#issuecomment-2444035107, https://github.com/opengeospatial/GeoDCAT-SWG/issues/17#issuecomment-2477705703)
 
 Specific case studies with engagement in the first session included: #17 TITLE NEEDED?
 
@@ -54,6 +55,7 @@ extend any OGC Records or STAC client to display provenance information
 extend and OGC Records or STAC editor to display and manage provenance information
 These are all fairly small individually - but publishing the profiles as Building Blocks - or testing existing ones with these scenarios - ensures a output that can be built upon systematically, so any combination of the tasks has value to progress GeoDCAT and OGC APIs as an interoperability framework for XGeoAI - "Explainable AI for Geospatial".
 
+Probably the most developed 'prior art' is a spreadsheet mapping that was created by GeoCat staff working on GeoNetwork: https://docs.google.com/spreadsheets/d/1pJkKgGa655Dv06_UFwzeYoje9hEwzifE/edit?usp=sharing&ouid=115738132131001964515&rtpof=true&sd=true. It aims to be a mapping from ISO 19115-1:2014 / ISO 19115-3 to DCAT v3
 
 
 === Motivating Use Case:  Data Format and Validation Service For Interoperability Between Analytics and Data
