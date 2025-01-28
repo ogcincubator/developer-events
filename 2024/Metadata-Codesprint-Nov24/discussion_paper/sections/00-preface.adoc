@@ -50,7 +50,7 @@ All questions regarding this document should be directed to the editors or the c
 |	Rob Atkinson| OGC | Editor
 |	Byron Cochrane | Openworks |Editor
 |	David Stolarz | ASPRS | Contributor
-|	Peter Parslow | ISO TC 211 | Contributor
+|	Peter Parslow | ISO/TC 211 | Contributor
 |	Ivana Ivanova | Curtin University | Contributor
 |	Panagiotis (Peter) A. Vretanos | CubeWerx Inc. | Contributor
 |	Jeroen Ticheler/David Blasby | GeoCat | Contributors
