@@ -1,6 +1,7 @@
 # Nov 2024 Metadata Codesprint Report
 
-[Preview HTML version](https://ogcincubator.github.io/developer-events/2024/Metadata-Codesprint-Nov24/discussion_paper/document.html)
+This is managed in a [separate repository](https://github.com/ogcincubator/metadata-codesprint2024) to support a metanorma build process.
+[Preview HTML version](https://ogcincubator.github.io/metadata-codesprint2024/document.html)
 
 ## Introduction
 The OGC GeoDCAT SWG (with the OGC MetaCata DWG) ran a two day code sprint, as described at https://github.com/opengeospatial/GeoDCAT-SWG/tree/main/workshops/2024/OGC_Metadata_Codesprint
